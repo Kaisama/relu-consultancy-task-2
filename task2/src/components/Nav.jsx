@@ -10,13 +10,13 @@ import logoutImage from '../assets/navImages/home.svg';
 const Nav = () => {
   return (
    <>
-    <div className=" absolute top-[40px] left-[200px]  opacity-100 "
+<div className=" absolute top-[40px] left-[200px]  opacity-100 "
       style={{ backgroundPosition: '0% 0%', backgroundRepeat: 'no-repeat', backgroundOrigin: 'padding-box' }} >
       <div className=" w-[260px] h-[80px] " style={{
         backgroundColor:"#ffffff", borderRadius:'10px' }}>
         <div className="absolute top-[27px] left-[35px] bottom-[19px] right-[136px]  text-[32px]"
           style={{
-            font: "normal normal normal 32px Mongolian Baiti",
+                font: "normal normal normal 32px Mongolian Baiti",
           }}
         >
           LOGO
