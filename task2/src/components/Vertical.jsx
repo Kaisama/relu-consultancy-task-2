@@ -6,6 +6,7 @@ import heart from '../assets/veriImages/heart.png'
 import share from '../assets/veriImages/share.png'
 import imad from '../assets/veriImages/imad.png'
 import tobais from '../assets/veriImages/tobias.png'
+import hear from '../assets/veriImages/heart.svg'
 
 
 
@@ -52,6 +53,8 @@ const VerticalCarousel = () => {
 
 <div className='absolute top-[175px] left-[30px]'>
     <img src={humphrey} alt="humphrey"  />
+    <img src={hear} className='w-[24px] h-[22px]  absolute top-[25px] left-[512px] right-[25px] '/>
+
 </div>
 
 <div className='flex flex-row absolute top-[539px] left-[30px] '>
@@ -112,6 +115,8 @@ const VerticalCarousel = () => {
 
 <div className='absolute top-[175px] left-[30px]'>
     <img src={tobais} alt="humphrey"  />
+    <img src={hear} className='w-[24px] h-[22px]  absolute top-[25px] left-[512px] right-[25px] '/>
+
 </div>
 
 <div className='flex flex-row absolute top-[539px] left-[30px] '>
